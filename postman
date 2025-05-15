@@ -1,0 +1,16 @@
+API через Postman
+
+- Метод: POST  
+- URL: http://localhost:3000/products/search
+
+- (Body raw JSON):
+
+Вставить json
+{
+  "title": "Galaxy",
+  "filter_items": [2, 3],
+  "order": "desc",
+  "filter": "price",
+  "offset": 0,
+  "limit": 5
+}
